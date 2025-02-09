@@ -11,7 +11,6 @@ fn main() -> io::Result<()> {
         if let Ok(s) = line {
             let n = s.parse::<u32>().expect("nan");
             fuel += (n / 3) - 2
-
         }
     }
 
